@@ -1,1 +1,41 @@
-/* murilo Ferreira e rafael Leal 23.05.2024 */
+/* Murilo Ferreira e Rafael Leal 23.05.2024 */
+
+body {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh; 
+    margin: 0;
+    background-color: #f5f5f5;
+}
+
+.bloco1, .bloco2, .bloco3 {
+    width: 280px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    padding: 20px; 
+    text-align: center; 
+    font-family: Arial, sans-serif;
+}
+
+button {
+    background-color: #000000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #000000;
+}
